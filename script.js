@@ -153,8 +153,8 @@ document.addEventListener("DOMContentLoaded", function () {
     const hoursEl = document.getElementById("hours");
     const minutesEl = document.getElementById("minutes");
 
-    // 14 de noviembre de 2026, 21:00 (Argentina)
-    const eventDate = new Date("2026-11-14T21:00:00-03:00").getTime();
+    // 10 de octubre de 2026, 21:00 (Argentina)
+    const eventDate = new Date("2026-10-10T21:00:00-03:00").getTime();
     const pad = function (n) { return String(n).padStart(2, "0"); };
 
     function updateCountdown() {
